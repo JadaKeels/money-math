@@ -29,4 +29,6 @@ println(
 );
         }
 
-
+floatValue = 0.0f;
+doubleValue = 0.0;
+bigDecimalValue = BigDecimal.ZERO

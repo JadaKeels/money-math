@@ -32,3 +32,12 @@ println(
 floatValue = 0.0f;
 doubleValue = 0.0;
 bigDecimalValue = BigDecimal.ZERO
+
+for (int i = 0; i < 1000; i++) {
+
+floatValue += 19.99f;
+doubleValue += 19.99;
+bigDecimalValue = bigDecimalValue.add(new BigDecimal("19.99"));
+        }
+
+
